@@ -1,0 +1,43 @@
+//var hoisting
+console.log(myVar);
+var myVar = "assigned later";
+console.log(myVar);
+
+//independent
+
+console.log(testStatus);
+
+var testStatus = "IN progress" ;
+console.log(testStatus);
+
+
+/* let/const hoisting & temporal dead zone(TDZ)
+The stretch of code from the top of the scope to 
+the declaration line is called the temporal dead zone (TDZ) — 
+the variable technically exists, but touching it in any way throws an error.
+*/
+
+/*
+//const
+
+console.log(sayHiExpression());
+
+const sayHiExpression = function () {
+  return "Hi";
+};
+*/
+
+//let
+
+/*
+console.log(testValue);
+let testValue = "ready";
+
+*/
+
+//Independent exce.
+
+console.log(testEnv);
+const testEnv = "testStaging";
+
+
