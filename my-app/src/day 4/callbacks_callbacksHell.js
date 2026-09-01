@@ -10,7 +10,7 @@ setTimeout(function () {
 
 console.log("test setup complete");
 
-//independent exx
+//independent ex
 
 console.log("checking server status");
 
